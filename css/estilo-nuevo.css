@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Coming Soon', cursive;
+}
+body{
+    background-image: url(../img/unknown.png);
+    background-size: 100%;
+}
+@keyframes animacion1 {
+    from {background-color: rgba(1, 5, 255);}
+    to {background-color: rgba(255, 9, 1);}
+}
+h1{
+    animation: animacion1 1s infinite;
+    padding: 10px;
+    text-align: center;
+    border: 5px dotted green;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 5px double red;
+}
+.caja{
+    background: rgb(2,0,36); background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(6,142,12,1) 0%, rgba(240,245,14,0.742734593837535) 45%, rgba(14,107,209,1) 93%);
+    padding: 30px;
+}
+img {
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+
+header {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.article:not(h3) {
+    display: flex;
+    padding: 5px;
+    margin: 5px
+}
+h3{
+    border-bottom: 5px dotted red;
+    padding: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    color: black;
+}
+@keyframes animacion2 {
+    from {background-color: rgb(104, 2, 163);}
+    to {background-color: rgb(255, 255, 255);}
+}
+footer{
+    animation: animacion2 1s infinite;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+button:hover{
+    animation: animacion2 1s infinite;
+}

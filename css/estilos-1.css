@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #E11364;
+    font-family: 'Open Sans', sans-serif;
+}
+section.caja{
+    background-color: #BC105C;
+    margin: 60px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+article.cajita{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+span{
+    text-align: left;
+}
+h1{
+    color: white;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    background-color: #BC105C;
+    text-align: center;
+    padding: 10px;
+    margin: 75px;
+    font-size: 40px;
+}
+h2{
+    color: white;
+    background-color: #BC105C;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+}
+header h3{
+    text-align: right;
+    border-bottom: 3px dotted #BC105C;
+    margin: 10px;
+    background-color: white;
+    color: #BC105C;
+}
+div.imagenes img{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+p{
+    background-color: white;
+    padding: 10px;
+}
+div a button{
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+}
+div a button:hover{
+    text-align: center;
+    background-color: rgb(220,22, 83);
+}
+
+footer{
+    background-color: #E96093;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
